@@ -1,0 +1,40 @@
+.nav__main {
+	padding-top: 2%;
+	color:#a7a7a7;
+	border-bottom: 2px solid  #cbcaca;
+}
+.nav__main--ul li {
+    display: inline-block;
+    float: right;
+}
+.nav__main--li {
+	padding-left: 5.5%;
+	font-size: 20px;
+}
+.nav__main--li a {
+	color: #cbcaca;
+   text-decoration: none;
+   font-family: "Dosis";
+
+}
+.nav__main--li a:hover{
+	 text-decoration: underline;
+}
+
+.nav__main--logo {
+	float: left;
+}
+.nav__main {
+	padding-bottom: 2%;
+}
+
+
+.img--hero{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 7%;
+}
+
+
+
