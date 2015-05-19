@@ -7,8 +7,10 @@
 
     <link rel="stylesheet" type="text/css" href="styles/foundation-essentials-5.5.2/css/foundation.css">
      <link rel="stylesheet" type="text/css" href="styles/foundation-essentials-5.5.2/css/normalize.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   	 <link rel="stylesheet" type="text/css" href="styles/main.css">
-  	 <link rel="stylesheet" type="text/css" href="styles/theme.css">
+  	 <link rel="stylesheet" type="text/css" href="styles/small.css">
+  	 <link rel="stylesheet" type="text/css" href="styles/large.css">
      <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600' rel='stylesheet' type='text/css'>
 
 
@@ -24,7 +26,9 @@
 		    			<li class="nav__main--li"><a href="#">Blog</a></li>  
 		    			<li class="nav__main--li"><a href="#">Portfolio</a></li> 
 		    			<li class="nav__main--li"><a href="#">Home</a></li> 
+		    			<div id="hamburger" class="nav__main--hamburger">Menu</div>	
 		    		</ul> 
+
 		   		 </div><!-- end of nav__main -->
     </div><!-- end of row-->
 
@@ -34,6 +38,31 @@
     		<img class="img--hero" alt="hero_img" src="images/landing_page.png">
     	</div>
     </div><!-- end of row-->
+
+
+    <script>
+
+    var activated = false;
+   
+    	$('#hamburger').click(function(){
+
+    		// $('.nav__main--ul li').slideToggle("slow");
+
+    		if (activated == false) {
+    		$('.nav__main--ul li').css('display', 'inline-block');
+    		activated  = true
+    		}
+
+    		else {
+			$('.nav__main--ul li').css('display','none');
+    		activated = false
+    		}	
+
+    	});
+
+
+
+    </script>
 
 </body>
 </html>

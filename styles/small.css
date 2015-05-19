@@ -1,0 +1,50 @@
+.nav__main--hamburger{
+	width: 100%;
+/*	background: #cbcaca;*/
+	border-bottom: 1px solid #cbcaca;
+	box-sizing:	border-box;
+	padding: 2.2%;
+	color: white;
+	display: none;
+	font-family: "Dosis";
+	font-size: 20px;
+	padding-left: 13%;
+	text-align: left;
+	color: #a7a7a7;
+  	font-family: "Dosis";
+}
+
+@media (max-width:  580px) {
+  .nav__main {
+  	color: white;
+  	border-bottom: transparent;
+  }
+  .nav__main--logo {
+  	display: none;
+  }	
+  .nav__main--ul ul{
+  	max-height: 0;
+  }
+  .showing{
+  	max-height: 20em;
+  }
+  .nav__main--ul li {
+  	box-sizing: border-box;
+  	width: 100%;
+  	padding: 15px;
+  	float: left;
+  	display: inline-block;
+  	text-align: left;
+  	display: none;
+  }
+  .nav__main--li a {
+  	color: #a7a7a7;
+  	font-family: "Dosis";
+  	float: left;
+  }
+  .nav__main--hamburger{
+  	display: block;
+  }
+
+}
+

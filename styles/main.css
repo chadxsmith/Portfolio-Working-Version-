@@ -3,8 +3,12 @@
 	color:#a7a7a7;
 	border-bottom: 2px solid  #cbcaca;
 }
+.nav__main--ul ul {
+	overflow: hidden;			
+}
 .nav__main--ul li {
     display: inline-block;
+    text-align: left;
     float: right;
 }
 .nav__main--li {
@@ -12,7 +16,7 @@
 	font-size: 20px;
 }
 .nav__main--li a {
-	color: #cbcaca;
+	color: #a7a7a7;
    text-decoration: none;
    font-family: "Dosis";
 
@@ -27,7 +31,6 @@
 .nav__main {
 	padding-bottom: 2%;
 }
-
 
 .img--hero{
 	display: block;
