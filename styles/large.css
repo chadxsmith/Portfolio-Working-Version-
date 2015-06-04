@@ -1,5 +1,6 @@
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .nav__main--ul li {
   	display: inline-block !important;
   }
+
 }

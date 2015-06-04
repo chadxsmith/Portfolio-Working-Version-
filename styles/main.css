@@ -1,22 +1,28 @@
+.style_global{
+	background: #f8f8f8;
+	font-family: "Dosis";
+}
+
+/*navigation*/
 .nav__main {
 	padding-top: 2%;
 	color:#a7a7a7;
 	border-bottom: 2px solid  #cbcaca;
+	text-align: right;
 }
 .nav__main--ul ul {
-	overflow: hidden;			
+	overflow: hidden;	
 }
 .nav__main--ul li {
     display: inline-block;
-    text-align: left;
-    float: right;
+    text-align: right;
 }
 .nav__main--li {
 	padding-left: 5.5%;
 	font-size: 20px;
 }
 .nav__main--li a {
-	color: #a7a7a7;
+   color: #a7a7a7;
    text-decoration: none;
    font-family: "Dosis";
 
@@ -32,6 +38,158 @@
 	padding-bottom: 2%;
 }
 
+
+
+.breadcrumb {
+    color: #b9b7b7;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Dosis";
+}
+
+
+.section--row__index{
+	border-bottom: 2px solid  #cbcaca;	
+}
+.section__index{
+	padding-bottom: 5%;
+}
+.header__index{
+	color: #838383;
+  	font-size: 3.375em;
+  	font-weight: 400;
+  	font-family: "Dosis";
+  	margin-bottom: 0.2%;
+}
+.header__index a{
+	color: #838383;
+   text-decoration: none;
+}
+.header__index a:hover{
+	color: #2980b9;
+	text-decoration: underline;
+}
+.subheader__index {
+	color: #838383;
+  	font-size: 1.875em;
+  	font-weight: 300;
+  	font-family: "Dosis";
+  	display: inline;
+}
+
+.section__show{
+	padding-bottom: 2%;
+}
+
+.header__show{
+	margin-top: 3%;
+	color: #838383;
+  	font-size: 3.375em;
+  	font-weight: 400;
+  	font-family: "Dosis";
+  	margin-bottom: 0%;
+  	padding-bottom: 2%;
+}
+
+
+.header--parent__show{
+  	color: #838383;
+  	font-size: 2em;
+  	font-weight: 400;
+  	font-family: 'Open Sans Condensed', sans-serif;
+  	font-style: italic;  	
+}
+
+.header--parent__show-alt{
+	margin-top: 0px;
+	color: #838383;
+  	font-size: 2em;
+  	font-weight: 400;
+  	font-family: 'Open Sans Condensed', sans-serif;
+  	font-style: italic;  	
+}
+
+.header--child__show{
+	/*float: left;*/
+  	color: #838383;
+  	font-size: 1.5em;
+  	font-weight: 400;
+  	font-family: 'Open Sans Condensed', sans-serif;
+  	font-style: italic; 	
+}
+
+.header--parent__resume-alt{
+	color: #838383;
+  	font-size: 3.375em;
+  	font-weight: 400;
+  	font-family: "Dosis";
+}
+
+.resume_description{
+	color: #838383;
+  	font-size: 1.24em;
+  	font-weight: 400;
+  	line-height: 40px;
+  	padding-top: 10px;
+  	padding-bottom: 2%;
+}
+
+.resume_section{
+	padding-top: 7%;
+	padding-bottom: 5%;
+}
+
+
+.footer {
+		border-top: 2px solid  #cbcaca;
+}
+h1{
+	margin-bottom: 0px;
+}
+ul{
+	margin-left: 0; 
+	margin-bottom: 0px;
+}
+
+li {
+	list-style-type: none;
+	margin: -7px;
+
+}
+
+.resume__skills-header{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-style: italic;
+	font-weight: 500;
+}
+
+
+.post__show{
+/*  text-indent: 2%;*/
+  padding-bottom: 0px;
+  padding-top: 0px;
+  color: #838383;
+  font-size: 1.24em;
+  font-weight: 400;
+  line-height: 40px;
+  padding-top: 10px;
+  font-family: "Dosis";
+}
+
+.post__show li {
+	margin-left: 10px;
+}
+
+i{
+	color: #838383;
+	float: right;
+	padding-left: 3%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	display: none;
+}
+
 .img--hero{
 	display: block;
     margin-left: auto;
@@ -39,5 +197,92 @@
     padding-top: 7%;
 }
 
+/*.paganation{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}*/
+
+.paganation__right{
+	font-family: "Dosis";
+	text-align: right;
+	float: right;
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+.paganation__right a:hover{
+	text-decoration: underline;
+}
+
+.paganation__left{
+	font-family: "Dosis";
+	float: left;
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
 
 
+.topic__description--alt{
+	color: #838383; 
+   font-size: 1.24em;
+   font-weight: 400;
+   font-family: "Dosis";
+}
+.topic___header--bold {
+  padding-top: 2%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 500;
+   color: #838383;
+  font-size: 1.24em;
+  font-weight: 400 
+ }
+
+ .topic___header--xsm{
+  font-family: "Dosis";	
+  color: #b9b7b7;
+  font-size: 1.24em;
+  font-weight: 300;
+ }
+
+.paging_tablet{
+  font-family: "Dosis"; 
+  color: #838383;
+  font-size: 1.24em;
+  font-weight: 300;
+  border: 1px solid  #838383;
+  text-align: center;
+  margin-bottom: 3%;
+  width: 90%;
+  display: none;
+}
+
+.next_logo{
+  border: 1px solid red;
+  padding-right: 20px;
+}
+
+.arrow{
+  font-size: 34px;
+  margin-left: 100px;
+}
+
+.arrow-alt{
+  font-size: 34px;
+  margin-left: 50px;
+}
+
+.arrow_left{
+  font-size: 34px;
+  margin-right: 100px;
+}
+
+.arrow_left a {
+  color: #838383;;
+}
+
+.arrow-alt a {
+  color: #838383;;
+}
+.arrow a {
+  color: #838383;;
+}
